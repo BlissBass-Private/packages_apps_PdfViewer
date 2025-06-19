@@ -27,11 +27,8 @@
                 android:name="com.android.settings.title"
                 android:value="@string/app_name" />
             <meta-data
-                android:name="com.android.settings.summary"
-                android:value="@string/main_activity_title" />
-            <meta-data
                 android:name="com.android.settings.icon"
-                android:resource="@mipmap/ic_launcher" />
+                android:resource="@drawable/ic_launcher_foreground" />
         </activity>
 
         <meta-data android:name="android.webkit.WebView.MetricsOptOut"
